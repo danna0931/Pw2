@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto PW2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Manejo de CSV</h1>
+    <div id="menu">
+        <button onclick="Menup('leer')">Leer</button>
+        <button onclick="Menup('insertar')">Insertar</button>
+        <button onclick="Menup('borrar')">Borrar</button>
+    </div>
+    <div id="actions">
+        <div id="leer" class="action">
+            <input type="file" id="csvFileInput" accept=".csv">
+            <button onclick="leerCSV()">Leer CSV</button>
+            <div id="csvContent"></div>
+        </div>
+        <div id="insertar" class="action">
+            <h2>Insertar Datos</h2>
+            <input type="file" id="csvFileInputAgregar" accept=".csv">
+            <button onclick="agregarDatosCSV()">Leer CSV</button>
+            <div id="csvContentAgregar"></div>
+            <button onclick="agregarFila()">Agregar Fila</button>
+            <button onclick="guardarDatos()">Guardar</button>
+        </div>        
+        <div id="borrar" class="action">
+            <h2>Borrar Datos</h2>
+            <input type="file" id="csvFileInputBorrar" accept=".csv">
+            <button onclick="borrarDatosCSV()">Leer CSV</button>
+            <div id="csvContentBorrar"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

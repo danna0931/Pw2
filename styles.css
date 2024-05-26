@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f0ff;
+    color: #4a235a;
+    align-items: center;
+}
+
+h1 {
+    
+    color: #d63384;
+}
+
+#menu {
+    margin-bottom: 20px;
+    display:grid;
+}
+
+#menu button {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#menu button:hover {
+    background-color: #9b59b6;
+}
+
+#actions > div {
+    display: none;
+}
+
+input[type="file"],
+input[type="text"],
+button {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="file"],
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #9b59b6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #d63384;
+    color: white;
+}
+
+td {
+    background-color: #f0e6f6;
+}
+
